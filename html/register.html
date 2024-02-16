@@ -11,31 +11,31 @@
     
     <h2>Register</h2>
 
-    <form>
+    <form method="GET" action="">
 
-        First Name: <input type="text"/><br>
-        Last Name: <input type="text"/><br>
-        Email: <input type="email" required/><br>
-        Password: <input type="password" minlength="5"/><br>
-        Birthday: <input type="date"/><br>
+        First Name: <input type="text" name="First Name"/><br>
+        Last Name: <input type="text" name="Last Name"/><br>
+        Email: <input type="email" name="Email" required/><br>
+        Password: <input type="password" minlength="5" name="Password"/><br>
+        Birthday: <input type="date" name="Birthday"/><br>
 
         Gender: <br>
-                 <input type='radio' name="gender">Male<br>
-                 <input type='radio' name="gender">Female<br>
-                 <input type='radio' name="gender">Other<br>
+                 <input type='radio' name="gender" value="Male">Male<br>
+                 <input type='radio' name="gender" value="Female">Female<br>
+                 <input type='radio' name="gender" value="other">Other<br>
 
         Pets: <br>
-                <input type="checkbox"/>Dog
-                <input type="checkbox"/>Cat
-                <input type="checkbox"/>Snake
-                <input type="checkbox"/>Fish 
+                <input type="checkbox" name="pet" value="Dog"/>Dog
+                <input type="checkbox" name="pet" value="Cat"/>Cat
+                <input type="checkbox" name="pet" value="Snake"/>Snake
+                <input type="checkbox" name="pet" value="Fish"/>Fish 
                 <br>   
             
         Cars <br>
-                <select>
-                    <option value="volvo">Volvo</option>
-                    <option value="Mercedes">Mercedes</option>
-                    <option value="Tesla">Tesla</option>
+                <select name="car">
+                    <option value="volvo" value="Volvo">Volvo</option>
+                    <option value="Mercedes" value="Mercedes">Mercedes</option>
+                    <option value="Tesla" value="Tesla">Tesla</option>
                 </select> <br>
 
         <input type="submit" value='Register!'/>
@@ -49,3 +49,4 @@
 
 
 </html>
+
