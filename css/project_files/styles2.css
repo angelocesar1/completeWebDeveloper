@@ -1,7 +1,21 @@
+
+body {
+    background-image: url(kate-mishchankova-Wk-lp8xjIio-unsplash.jpg);
+    background-size: cover;
+}
+
 h2 {
-    color: blue;
+    text-align: center;
+    color: #AA4139;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
 }
 
 p {
     color: green
+}
+
+li{
+    list-style: none;
+    display: inline-block;
 }
