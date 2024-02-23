@@ -11,11 +11,26 @@ h2 {
     cursor: pointer;
 }
 
-p {
-    color: green
-}
 
 li{
     list-style: none;
     display: inline-block;
+}
+
+#div1{
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.webtext {
+    color: green;
+    text-align: center;
+    border: 5px dashed green
+}
+
+.active { 
+    color: red
 }
