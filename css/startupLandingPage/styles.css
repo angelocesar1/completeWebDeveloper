@@ -3,4 +3,23 @@ body, html {
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    color: #e2dbdb;
+    font-size: 3rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
 }
