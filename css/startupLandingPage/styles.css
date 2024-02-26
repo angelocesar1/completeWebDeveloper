@@ -26,13 +26,14 @@ hr{
     border-color: #F05F44;
     border-width: 3px;
     max-width: 65px;
-    
+    margin: 0 auto;
 }
 
 .btn{
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 300px;
+    margin:20px 0px 0px 0px;
 }
 
 .btn-xl{
