@@ -24,6 +24,8 @@ if (action == 'divide' || action == 'Divide') {
     var multiply = alert(Number(firstNumber) * Number(secondNumber))
 } else if (action == 'add' || action == 'Add') {
     var sum = alert(Number(firstNumber) + Number(secondNumber))
-} else if (action == 'subtbract' || action == 'Subtract') {
+} else if (action == 'subtract' || action == 'Subtract') {
     var difference = alert(Number(firstNumber) - Number(secondNumber))
+} else {
+    var error = alert('please enter valid action')
 }

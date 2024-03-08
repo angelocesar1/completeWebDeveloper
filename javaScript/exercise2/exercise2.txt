@@ -7,14 +7,22 @@
 
 // add variable "firstName" and "lastName" // so that they equal your name
 
+var firstName = "Angelo "
+var lastName = "Dos Santos"
+
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
+
+fullName = firstName + lastName
 
 // Evaluate this question. What is a + b?
 var a = 34;
 var b = 21;
 a = 2;
-a + b // what is the answer here?
+
+a + b // what is the answer here? ---> 23
+
 
 // What is c equal to?
 var c;
 
+undefined
